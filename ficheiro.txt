@@ -1,0 +1,11 @@
+INÍCIO
+    LER valor_a
+    LER valor_b
+    LER valor_c
+
+    SE (valor_a + valor_b > valor_c) E (valor_a + valor_c > valor_b) E (valor_b + valor_c > valor_a) ENTÃO
+        ESCREVER "Os valores podem formar um triângulo."
+    SENÃO
+        ESCREVER "Os valores não podem formar um triângulo."
+    FIM SE
+FIM
